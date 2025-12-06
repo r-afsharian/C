@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <cs50.h>
+
+int main(void)
+{
+    int x = get_int("First Num: ");
+    int y = get_int("Second Num: ");
+
+    if (x > y)
+    {
+        printf("x is bigger than y.\n");
+    }
+    else if (y > x)
+    {
+        printf("y is bigger than x.\n");
+    }
+    else
+    {
+        printf("x is equal to y.\n");
+    }
+}
